@@ -1,0 +1,30 @@
+Notes
+
+Intro
+  Electron based parser and image scraper. First site TBD.
+
+Ontology
+  State
+    Task List
+      Task def:
+        Images found (?) - worth doing?
+          - (*) Some sites may require cookies and such that will force them to
+                do some magic shit with cookie management and referral links in
+                order to successfully download images. Site definitions should
+                self-report status a la sharepoint timer jobs
+        site.json file with the site name, and preferred entry points
+
+Pages
+
+  Home (add new)
+    - Add new parse task
+  Progress
+    - Displays currently running download tasks
+  Definition editor (plugins and such).
+    - Begin with site definitions as encoded items, progress into making them
+      plugins supported by electron's plugin architecture.
+
+Crazy Ideas
+  Repository management, serve role as mini python web server.
+  Allow for metadata available for each image to be used to determine the file
+  name the image is eventually saved to. 

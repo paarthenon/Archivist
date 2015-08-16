@@ -8,8 +8,8 @@ Ontology
     Task List
       Task def:
         Images found (?) - worth doing?
-          - (*) Some sites may require cookies and such that will force them to
-                do some magic shit with cookie management and referral links in
+          - (*) Some sites may require measures that will force definitions to
+                do some magic shit with cookie management and referral urls in
                 order to successfully download images. Site definitions should
                 self-report status a la sharepoint timer jobs
         site.json file with the site name, and preferred entry points
@@ -25,6 +25,6 @@ Pages
       plugins supported by electron's plugin architecture.
 
 Crazy Ideas
-  Repository management, serve role as mini python web server.
-  Allow for metadata available for each image to be used to determine the file
-  name the image is eventually saved to. 
+  - Repository management, serve role as mini python web server.
+  - Allow for metadata available for each image to be used to determine the file
+    name the image is eventually saved to.

@@ -2,10 +2,15 @@
   "name": "archivist",
   "version": "0.0.1",
   "description": "None",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "./node_modules/.bin/electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paarth",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": "https://github.com/paarthk/Archivist.git",
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.4"
+  }
 }

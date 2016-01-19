@@ -1,5 +1,7 @@
 Notes
 
+Convert to typescript.
+
 Intro
   Electron based parser and image scraper. First site TBD.
 
